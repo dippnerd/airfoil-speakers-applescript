@@ -1,5 +1,5 @@
 on run argv
-	set v to item 1 of argv
+	set v to item 1 of argv/100
 	activate application "Airfoil"
 	tell application "Airfoil"
 		set kitchenSpeaker to first speaker whose name is "Kitchen"
